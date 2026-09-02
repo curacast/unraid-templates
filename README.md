@@ -31,8 +31,11 @@ Email <support@inertiatechgroup.com>, or see
 
 ## Licence
 
-The MIT licence on this repository covers **these templates and their
+[Apache License 2.0](LICENSE), covering **these templates and their
 documentation only**. Curacast itself is proprietary software under a separate
-commercial licence — see [curacast.tv](https://curacast.tv).
+commercial licence — see [curacast.tv](https://curacast.tv) and [NOTICE](NOTICE).
+
+Apache 2.0 was chosen over MIT for its explicit trademark clause: the licence
+grants no right to use the Curacast name.
 
 Curacast is a product of Inertia Tech Group LLC.

@@ -1,13 +1,29 @@
-Scope of the MIT licence in this repository
-===========================================
+Curacast Unraid templates
+Copyright (c) 2026 Inertia Tech Group LLC
 
-The MIT licence in LICENSE applies to the contents of THIS REPOSITORY only:
-the Unraid container templates, the repository metadata and the documentation.
+This product includes software developed by Inertia Tech Group LLC
+(https://curacast.tv).
+
+
+Scope of this licence
+---------------------
+
+The Apache License 2.0 in LICENSE applies to the contents of THIS REPOSITORY
+only: the Unraid container templates, the repository metadata and the
+documentation.
 
 It does NOT apply to Curacast itself. Curacast is proprietary software,
-distributed under a separate commercial licence, and publishing these
-templates under an open licence does not place the application under one.
+distributed under a separate commercial licence. Publishing these templates
+under an open licence does not place the application under one.
 
-  https://curacast.tv
 
-Curacast is a product of Inertia Tech Group LLC.
+Trademarks
+----------
+
+Per section 6 of the Apache License 2.0, this licence grants no permission to
+use the trade names, trademarks, service marks or product names of Inertia
+Tech Group LLC, including "Curacast", except as required for reasonable and
+customary use in describing the origin of the work.
+
+Plex, Jellyfin and Emby are trademarks of their respective owners and are used
+here only to describe compatibility.

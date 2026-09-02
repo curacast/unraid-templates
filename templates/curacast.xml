@@ -49,5 +49,6 @@ Licensing: free for 14 days on up to 2 channels. A subscription removes the limi
   </Environment>
   <Labels/>
   <Config Name="Webui &amp; HDHR" Target="8000" Default="" Mode="tcp" Description="Container Port: 8000" Type="Port" Display="always" Required="false" Mask="false">8000</Config>
+  <Config Name="Intel / AMD GPU (optional)" Target="/dev/dri" Default="" Mode="" Description="Pass an Intel or AMD GPU through for VAAPI or QSV hardware transcoding. Enter /dev/dri . Leave blank to transcode in software." Type="Device" Display="always" Required="false" Mask="false"/>
   <Config Name="Appdata" Target="/home/curacast/app/.curacast" Default="" Mode="rw" Description="Container Path: /home/curacast/app/.curacast" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/curacast/</Config>
 </Container>

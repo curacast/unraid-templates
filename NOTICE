@@ -1,0 +1,13 @@
+Scope of the MIT licence in this repository
+===========================================
+
+The MIT licence in LICENSE applies to the contents of THIS REPOSITORY only:
+the Unraid container templates, the repository metadata and the documentation.
+
+It does NOT apply to Curacast itself. Curacast is proprietary software,
+distributed under a separate commercial licence, and publishing these
+templates under an open licence does not place the application under one.
+
+  https://curacast.tv
+
+Curacast is a product of Inertia Tech Group LLC.

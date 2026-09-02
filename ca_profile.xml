@@ -5,8 +5,12 @@ Templates for **Curacast**, which turns a Plex, Jellyfin or Emby library into
 
 Curacast presents itself to Plex as an HDHomeRun tuner, so Plex Live TV
 discovers it automatically, and it serves M3U and XMLTV for any IPTV client.
-FFmpeg is bundled, and Intel or AMD GPUs can be passed through for hardware
-transcoding. Images are published for `linux/amd64` and `linux/arm64`.
+FFmpeg is bundled, with NVENC, VAAPI and QSV encoders. Images are published for
+`linux/amd64` and `linux/arm64`.
+
+Two templates: the standard one, which can pass through an Intel or AMD GPU via
+`/dev/dri`, and an NVIDIA variant that runs the same image under the NVIDIA
+runtime for NVENC. NVENC has been verified encoding on real hardware.
 
 Free for 14 days on up to 2 channels. A subscription removes the channel limit.
 Existing channels are never removed if a licence lapses, and a programme

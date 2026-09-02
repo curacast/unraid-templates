@@ -6,9 +6,14 @@ Jellyfin or Emby library into 24/7 live TV channels with a real programme guide.
 This repository exists so Unraid's **Community Applications** can read the
 template. It holds no source code — Curacast itself is closed source.
 
-`templates/curacast.xml` is the container template. Intel and AMD GPUs can be
-passed through for hardware transcoding by adding `/dev/dri`. An NVIDIA variant
-is not published yet — it needs an image built against the NVIDIA runtime.
+| Template | Use it when |
+| --- | --- |
+| `templates/curacast.xml` | Standard install. Software encoding, or Intel/AMD by passing through `/dev/dri`. |
+| `templates/curacast-nvidia.xml` | NVENC on an Nvidia GPU. Needs Unraid's Nvidia Driver plugin. |
+
+Both run the **same image**. The NVIDIA template differs only by `--runtime=nvidia`
+and two environment variables — the NVENC encoders are already in the standard
+image, so there is no separate `-nvidia` tag to pull.
 
 ## Installing
 

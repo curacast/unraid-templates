@@ -10,7 +10,7 @@ FFmpeg is bundled, with NVENC, VAAPI and QSV encoders. Images are published for
 
 Two templates: the standard one, which can pass through an Intel or AMD GPU via
 `/dev/dri`, and an NVIDIA variant that runs the same image under the NVIDIA
-runtime for NVENC. NVENC has been verified encoding on real hardware.
+runtime for NVENC.
 
 Free for 14 days on up to 2 channels. A subscription removes the channel limit.
 Existing channels are never removed if a licence lapses, and a programme

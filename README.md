@@ -8,8 +8,8 @@ templates. It holds no source code — Curacast itself is closed source.
 
 | Template | Use it when |
 | --- | --- |
-| `curacast.xml` | Standard install. Software encoding, or Intel/AMD via `/dev/dri`. |
-| `curacast-nvidia.xml` | You want NVENC hardware transcoding on an Nvidia GPU. |
+| `templates/curacast.xml` | Standard install. Software encoding, or Intel/AMD via `/dev/dri`. |
+| `templates/curacast-nvidia.xml` | You want NVENC hardware transcoding on an Nvidia GPU. |
 
 ## Installing
 
@@ -28,5 +28,11 @@ You do not need this repository. In Unraid, open the **Apps** tab, search for
 
 Email <support@inertiatechgroup.com>, or see
 [curacast.tv/support](https://curacast.tv/support).
+
+## Licence
+
+The MIT licence on this repository covers **these templates and their
+documentation only**. Curacast itself is proprietary software under a separate
+commercial licence — see [curacast.tv](https://curacast.tv).
 
 Curacast is a product of Inertia Tech Group LLC.

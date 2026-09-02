@@ -4,12 +4,11 @@ Container templates for [Curacast](https://curacast.tv), which turns a Plex,
 Jellyfin or Emby library into 24/7 live TV channels with a real programme guide.
 
 This repository exists so Unraid's **Community Applications** can read the
-templates. It holds no source code — Curacast itself is closed source.
+template. It holds no source code — Curacast itself is closed source.
 
-| Template | Use it when |
-| --- | --- |
-| `templates/curacast.xml` | Standard install. Software encoding, or Intel/AMD via `/dev/dri`. |
-| `templates/curacast-nvidia.xml` | You want NVENC hardware transcoding on an Nvidia GPU. |
+`templates/curacast.xml` is the container template. Intel and AMD GPUs can be
+passed through for hardware transcoding by adding `/dev/dri`. An NVIDIA variant
+is not published yet — it needs an image built against the NVIDIA runtime.
 
 ## Installing
 

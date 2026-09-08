@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://curacast.tv/support</Support>
   <Project>https://curacast.tv</Project>
-  <Overview>Curacast turns your Plex, Jellyfin or Emby library into always-on live TV channels with a real schedule and programme guide. It appears to Plex as an HDHomeRun tuner, and serves M3U and XMLTV for any IPTV client.&#xD;
+  <Overview>Curacast™ turns your Plex, Jellyfin or Emby library into always-on live TV channels with a real schedule and programme guide. It appears to Plex as an HDHomeRun tuner, and serves M3U and XMLTV for any IPTV client.&#xD;
 &#xD;
 Channels are managed from the Curacast web UI on port 8000. FFmpeg is bundled in the image, which carries the NVENC encoders.&#xD;
 &#xD;

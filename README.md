@@ -1,6 +1,6 @@
 # Curacast — Unraid Community Applications templates
 
-Container templates for [Curacast](https://curacast.tv), which turns a Plex,
+Container templates for [Curacast™](https://curacast.tv), which turns a Plex,
 Jellyfin or Emby library into 24/7 live TV channels with a real programme guide.
 
 This repository exists so Unraid's **Community Applications** can read the
@@ -43,3 +43,5 @@ Apache 2.0 was chosen over MIT for its explicit trademark clause: the licence
 grants no right to use the Curacast name.
 
 Curacast is a product of Inertia Tech Group LLC.
+
+Curacast™ is a trademark of Inertia Tech Group LLC.
